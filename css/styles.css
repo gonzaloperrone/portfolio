@@ -2,10 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@300&display=swap');
 
 body {
-  background-image: url("background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-image: linear-gradient(to left,#0a0d18, #112959);
 }
 
 /*Nav*/
