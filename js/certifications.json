@@ -2,55 +2,55 @@
     {
         "name": "Creando tu primera app con ReactJS",
         "platform": "Coursera Project Network - Coursera",
-        "img": "/img/certifications/coursera-project-react.PNG",
+        "img": "img/certifications/coursera-project-react.PNG",
         "year": "2022"
     },
     {
         "name": "Build a Full-Stack Server for API Requests - NodeJS and Pug",
         "platform": "Coursera Project Network - Coursera",
-        "img": "/img/certifications/coursera-project-node2.PNG",
+        "img": "img/certifications/coursera-project-node2.PNG",
         "year": "2022"
     },
     {
         "name": "Aprendiendo a hacer API con Node.JS",
         "platform": "Coursera Project Network - Coursera",
-        "img": "/img/certifications/coursera-project-node.PNG",
+        "img": "img/certifications/coursera-project-node.PNG",
         "year": "2022"
     },
     {
         "name": "Crea una página web interactiva con JavaScript",
         "platform": "Coursera Project Network - Coursera",
-        "img": "/img/certifications/coursera-project-js.PNG",
+        "img": "img/certifications/coursera-project-js.PNG",
         "year": "2022"
     },
     {
         "name": "Front-End Web Development with React",
         "platform": "The Hong Kong University of Science and Technology - Coursera",
-        "img": "/img/certifications/coursera-React.PNG",
+        "img": "img/certifications/coursera-React.PNG",
         "year": "2022"
     },
     {
         "name": "HTML, CSS, and Javascript for Web Developers",
         "platform": "Johns Kopkins University - Coursera",
-        "img": "/img/certifications/coursera-Javascript.PNG",
+        "img": "img/certifications/coursera-Javascript.PNG",
         "year": "2022"
     },
     {
         "name": "Diseño Web con HTML5 + CSS",
         "platform": "Fundación Telefónica Movistar",
-        "img": "/img/certifications/movistar.PNG",
+        "img": "img/certifications/movistar.PNG",
         "year": "2021"
     },
     {
         "name": "Responsive Web Design",
         "platform": "freeCodeCamp",
-        "img": "/img/certifications/freeCodeCamp.PNG",
+        "img": "img/certifications/freeCodeCamp.PNG",
         "year": "2021"
     },
     {
         "name": "Desarrollador Web",
         "platform": "Jóvenes a programar - Plan Ceibal",
-        "img": "/img/certifications/jap.PNG",
+        "img": "img/certifications/jap.PNG",
         "year": "2021"
     }
 ]
