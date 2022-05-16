@@ -1,17 +1,17 @@
 [
     {
-        "name": "e-commerce",
-        "madeWith": "HTML, CSS, JavaScript, Bootstrap, Node.js y Jquery.",
-        "description": "Proyecto realizado en el curso Jóvenes a programar de Plan Ceibal.",
-        "img": "img/projects/e-com.png",
-        "demo": "https://gonzaloperrone.github.io/e-commerce/",
-        "code": "https://github.com/gonzaloperrone/e-commerce"
+        "name": "Search It",
+        "madeWith": "ReactJs, Bootstrap, CSS.",
+        "description": "Proyecto personal realizado con la API de The Movie DB para buscar películas y/o series y ver su información.",
+        "img": "img/projects/searchIt.png",
+        "demo": "https://gonzaloperrone.github.io/movie-react.app/",
+        "code": "https://github.com/gonzaloperrone/movie-react.app"
     },
     {
         "name": "Todo App",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
         "description": "Proyecto personal de una app para crear y eliminar tareas pendientes y/o ya realizadas.",
-        "img": "img/projects/e-com.png",
+        "img": "img/projects/todo.png",
         "demo": "https://gonzaloperrone.github.io/todo_list_js/",
         "code": "https://github.com/gonzaloperrone/todo_list_js"
     },
@@ -19,7 +19,7 @@
         "name": "Caclulador de IMC",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
         "description": "Proyecto personal para calcular el índice de masa corporal.",
-        "img": "img/projects/e-com.png",
+        "img": "img/projects/imc.png",
         "demo": "https://gonzaloperrone.github.io/imc_js/",
         "code": "https://github.com/gonzaloperrone/imc_js"
     },
@@ -27,16 +27,16 @@
         "name": "Calculator",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
         "description": "Proyecto personal de 2 tipos de calculadoras distintas.",
-        "img": "img/projects/e-com.png",
+        "img": "img/projects/calculators.png",
         "demo": "https://gonzaloperrone.github.io/calculator.js/",
         "code": "https://github.com/gonzaloperrone/calculator.js"
     },
     {
-        "name": "Search It",
-        "madeWith": "ReactJs, Bootstrap, CSS.",
-        "description": "Proyecto personal realizado con la API de The Movie DB para buscar películas y/o series y ver su información.",
+        "name": "e-commerce",
+        "madeWith": "HTML, CSS, JavaScript, Bootstrap, Node.js y Jquery.",
+        "description": "Proyecto realizado en el curso Jóvenes a programar de Plan Ceibal.",
         "img": "img/projects/e-com.png",
-        "demo": "https://gonzaloperrone.github.io/movie-react.app/",
-        "code": "https://github.com/gonzaloperrone/movie-react.app"
+        "demo": "https://gonzaloperrone.github.io/e-commerce/",
+        "code": "https://github.com/gonzaloperrone/e-commerce"
     }
 ]
