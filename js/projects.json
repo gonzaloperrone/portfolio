@@ -8,6 +8,14 @@
         "code": "https://github.com/gonzaloperrone/movie-react.app"
     },
     {
+        "name": "David Chu's China Bistro",
+        "madeWith": "HTML, CSS, JavaScript, Bootstrap.",
+        "description": "Proyecto realizado en el curso 'HTML, CSS, and Javascript for Web Developers' - (Johns Kopkins University - Coursera)",
+        "img": "img/projects/davidChu.png",
+        "demo": "https://gonzaloperrone.github.io/David-Chus-China-Bistro/",
+        "code": "https://github.com/gonzaloperrone/David-Chus-China-Bistro"
+    },
+    {
         "name": "Todo App",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
         "description": "Proyecto personal de una app para crear y eliminar tareas pendientes y/o ya realizadas.",
