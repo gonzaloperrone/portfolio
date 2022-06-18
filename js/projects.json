@@ -1,5 +1,13 @@
 [
     {
+        "name": "Guess the color game",
+        "madeWith": "HTML, CSS, JavaScript.",
+        "description": "Proyecto realizado en Build 'Guess The Color' game using JavaScript, HTML and CSS (Proyecto guiado - Coursera).",
+        "img": "img/projects/guess_the_color.PNG",
+        "demo": "https://gonzaloperrone.github.io/guess_the_color_game/",
+        "code": "https://github.com/gonzaloperrone/guess_the_color_game"
+    },
+    {
         "name": "Search It",
         "madeWith": "ReactJs, Bootstrap, CSS.",
         "description": "Proyecto personal realizado con la API de The Movie DB para buscar películas y/o series y ver su información.",
