@@ -1,56 +1,68 @@
 [
     {
+        "name": "Interactivity with JavaScript",
+        "platform": "University of Michigan - Coursera",
+        "img": "img/certifications/coursera_interactivity_with_javascript.PNG",
+        "year": "Junio, 2022"
+    },
+    {
+        "name": "Build 'Guess The Color' game using JavaScript, HTML and CSS",
+        "platform": "Coursera Project Network - Coursera",
+        "img": "img/certifications/guess_the_color.PNG",
+        "year": "Junio, 2022"
+    },
+    {
         "name": "Creando tu primera app con ReactJS",
         "platform": "Coursera Project Network - Coursera",
-        "img": "img/certifications/coursera-project-react.PNG",
-        "year": "2022"
+        "img": "img/certifications/coursera_project_react.PNG",
+        "year": "Marzo, 2022"
     },
     {
         "name": "Build a Full-Stack Server for API Requests - NodeJS and Pug",
         "platform": "Coursera Project Network - Coursera",
-        "img": "img/certifications/coursera-project-node2.PNG",
-        "year": "2022"
+        "img": "img/certifications/coursera_project_node2.PNG",
+        "year": "Marzo, 2022"
     },
     {
         "name": "Aprendiendo a hacer API con Node.JS",
         "platform": "Coursera Project Network - Coursera",
-        "img": "img/certifications/coursera-project-node.PNG",
-        "year": "2022"
+        "img": "img/certifications/coursera_project_node.PNG",
+        "year": "Marzo, 2022"
     },
     {
         "name": "Crea una página web interactiva con JavaScript",
         "platform": "Coursera Project Network - Coursera",
-        "img": "img/certifications/coursera-project-js.PNG",
-        "year": "2022"
+        "img": "img/certifications/coursera_project_js.PNG",
+        "year": "Febrero, 2022"
     },
     {
         "name": "Front-End Web Development with React",
         "platform": "The Hong Kong University of Science and Technology - Coursera",
-        "img": "img/certifications/coursera-React.PNG",
-        "year": "2022"
+        "img": "img/certifications/coursera_React.PNG",
+        "year": "Febrero - Marzo, 2022"
     },
     {
         "name": "HTML, CSS, and Javascript for Web Developers",
         "platform": "Johns Kopkins University - Coursera",
-        "img": "img/certifications/coursera-Javascript.PNG",
-        "year": "2022"
+        "img": "img/certifications/coursera_Javascript.PNG",
+        "year": "Enero - Febrero, 2022"
     },
     {
         "name": "Diseño Web con HTML5 + CSS",
         "platform": "Fundación Telefónica Movistar",
         "img": "img/certifications/movistar.PNG",
-        "year": "2021"
+        "year": "Agosto, 2021"
     },
     {
         "name": "Responsive Web Design",
         "platform": "freeCodeCamp",
         "img": "img/certifications/freeCodeCamp.PNG",
-        "year": "2021"
+        "year": "Septiembre - Octubre, 2021"
     },
     {
         "name": "Desarrollador Web",
-        "platform": "Jóvenes a programar - Plan Ceibal",
+        "platform": "Jóvenes a programar _ Plan Ceibal",
         "img": "img/certifications/jap.PNG",
-        "year": "2021"
+        "year": "Marzo - Noviembre, 2021"
     }
 ]
