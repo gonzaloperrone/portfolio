@@ -20,124 +20,160 @@
 
   <!--Header-->
   <header>
-    <nav class="nav-style">
-      <a href="#main" class="logo">{GP}</a>
-      <button class="toggleBtn" onclick="this.classList.toggle('collapsed');
-        document.getElementById('nav-links').classList.toggle('expanded')
-        document.getElementById('navResume').classList.toggle('expanded')">
-        <span></span>
-        <span></span>
-        <span></span>
+    <nav id="navbar-example2" class="navbar navbar-expand-lg fixed-top bg-dark px-3">
+      <a class="logo" href="#">{GP}</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
       </button>
-      <ul id="nav-links">
-        <li><a href="#aboutMe">Sobre mi</a></li>
-        <li><a href="#certifications">Certificaciones</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-      </ul>
-      <ul id="navResume">
-        <li class="footerIcon cv"><a href="Gonzalo_Perrone.CV.pdf" download="Gonzalo_Perrone_CV.pdf"><i
-              class="bi bi-cloud-arrow-down"></i> Curriculum</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutMe">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certifications">Certficaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
     </nav>
   </header>
-  <section id="main">
-    <div class="mainInfo">
-      <div class="bg"></div>
-      <div class="col-lg-12 text-center">
-        <h1 class="name">Hola!, soy <span class="myName">Gonzalo!</span></h1>
-      </div>
-      <hr>
-      <h3 class="subTitle">Desarrollador Web</h3>
-      <a class="iconMain" href="https://github.com/gonzaloperrone" target="_blank"><i class="bi bi-github"></i></a>
-      <a class="iconMain" href="https://www.linkedin.com/in/gonzalo-perrone/" target="_blank"><i
-          class="bi bi-linkedin"></i></a>
-    </div>
 
-  </section>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example sectionsContainer" tabindex="0">
 
-  <!--About Me-->
-  <section id="aboutMe">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <img src="img/foto_cv.png" alt="Gonzalo Perrone" class="img-responsive profileImg">
-        </div>
-        <hr class="aboutHr">
-        <div class="col-12 aboutMeInfo">
-          <p>
-            Tengo 22 años y soy de Montevideo, Uruguay.
-            <br>
-            Soy una persona proactiva, trabajo muy bien en equipo, soy positivo, responsable y
-            comprometido.
-            <br>
-            Siempre me gustó e interesó la tecnología y en 2021 empecé a introducirme en el mundo de las TI.<br>
-            Me gusta estar en constante aprendizaje y crecimiento para desarrollarme tanto personalmente como en el área profesional.
-          </p>
-        </div>
-        <hr class="aboutHr1">
-      </div>
-      <div class="row aboutMeRow">
-        <div>
-          <a class="btn btn-primary skillsBtn" data-bs-toggle="collapse" href="#collapseExample" role="button"
-            aria-expanded="false" aria-controls="collapseExample">
-            Conocimientos y habilidades
-          </a>
-        </div>
-        <div class="collapse" id="collapseExample">
-          <div class="col-12">
-            <div class="row skills">
-              <div class="col-lg-3">
-                <h5 class="skill"><img src="img/html.png" alt="" width="30"> HTML5</h5>
-                <h5 class="skill"><img src="img/css.png" alt="" width="30"> CSS</h5>
-                <h5 class="skill"><img src="img/js.png" alt="" width="30"> JavaScript</h5>
-              </div>
-              <div class="col-lg-3">
-                <h5 class="skill"><img src="img/boot.png" alt="" width="30"> Bootstrap</h5>
-                <h5 class="skill"><img src="img/react.png" alt="" width="30"> React.js</h5>
-                <h5 class="skill"><img src="img/node.png" alt="" width="30"> Node.js</h5>
-              </div>
-              <div class="col-lg-3">
-                <h5 class="skill"><img src="img/githW.png" alt="" width="30"> Github</h5>
-                <h5 class="skill"><img src="img/json.png" alt="" width="30"> JSON</h5>
-                <h5 class="skill"><img src="img/illus.png" alt="" width="30"> Adobe Illustrator</h5>
-              </div>
-              <div class="col-lg-3">
-                <h5 class="skill"><img src="img/ps.png" alt="" width="30"> Adobe Photoshop</h5>
-                <h5 class="skill"><img src="img/excel.png" alt="" width="30"> Excel</h5>
-                <h5 class="skill"><img src="img/word.png" alt="" width=30> Word</h5>
-              </div>
+    <!--About Me-->
+    <section id="aboutMe" class="parallax">
+      <div class=" aboutMeContainer container">
+        <div class="row">
+          <div class="mainInfo">
+            <div class="bg"></div>
+            <div class="text-center">
+              <h1 class="name">Hola!, soy <span class="myName">Gonzalo</span>!</h1>
             </div>
+            <hr>
+            <h3 class="subTitle">Desarrollador Web</h3>
+            <a class="iconMain" href="https://github.com/gonzaloperrone" target="_blank"><i
+                class="bi bi-github"></i></a>
+            <a class="iconMain" href="https://www.linkedin.com/in/gonzalo-perrone/" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
+          </div>
+          <div class="col-12">
+            <img src="img/foto_cv.png" alt="Gonzalo Perrone" class="img-responsive profileImg">
+          </div>
+          <a class="resumeBtn" href="Gonzalo_Perrone_CV.pdf" download="Gonzalo_Perrone_CV.pdf"><i
+              class="bi bi-cloud-arrow-down"></i> CV</a>
+          <hr class="aboutHr">
+          <div class="col-12 aboutMeInfo">
+            <p>
+              Tengo 22 años y soy de Montevideo, Uruguay.
+              <br>
+              Soy una persona proactiva, trabajo muy bien en equipo, soy positivo, responsable y
+              comprometido.
+              <br>
+              Siempre me gustó e interesó la tecnología y en 2021 empecé a introducirme en el mundo de las TI.<br>
+              Me gusta estar en constante aprendizaje y crecimiento para desarrollarme tanto personalmente como en el
+              área profesional.
+            </p>
+          </div>
+          <hr class="aboutHr1">
+        </div>
+        <div class="row aboutMeRow">
+          <div>
+            <h3 class="skillsTitle">Conocimientos y habilidades</h3>
+          </div>
+          <div class="col-12">
+            <div class="skills">
+              <h5 class="skill"><img src="img/html.png" alt="" width="30"><br> HTML5</h5>
+              <h5 class="skill"><img src="img/css.png" alt="" width="30"><br> CSS</h5>
+              <h5 class="skill"><img src="img/js.png" alt="" width="30"><br> JavaScript</h5>
+              <h5 class="skill"><img src="img/git.png" alt="" width="30"><br> Git</h5>
+              <h5 class="skill"><img src="img/react.png" alt="" width="30"><br> React.js</h5>
+              <h5 class="skill"><img src="img/node.png" alt="" width="30"><br> Node.js</h5>
+            </div>
+
           </div>
         </div>
       </div>
-    </div>
+  </div>
+  </div>
   </section>
 
   <!--Certifications-->
-  <section id="certifications">
+  <section id="certifications" class="parallax">
     <h1 class="certifications-title">Certificaciones</h1>
     <div class="container">
-      <div class="certificationCards" id="certificationsCard"></div>
+      <div class="tab">
+        <button class="tablinks" onclick="tabs(event, 'courses')" id="defaultOpen">Cursos</button>
+        <button class="tablinks" onclick="tabs(event, 'projects')">Proyectos</button>
+      </div>
+
+      <div id="courses" class="tabcontent">
+        <div class="certificationCards" id="certificationsCard"></div>
+      </div>
+
+      <div id="projects" class="tabcontent">
+        <div class="certificationCards" id="projectsCertificationsCard"></div>
+      </div>
+
+      <!-- <div class="certificationCards" id="certificationsCard"></div>
+        <div class="certificationCards" id="projectsCertificationsCard"></div>-->
     </div>
   </section>
 
   <!--Portfolio-->
-  <section id="portfolio">
+  <section id="portfolio" class="parallax">
     <h1 class="portfolio-title">Portfolio</h1>
     <div class="container">
       <div class="portfolioCards" id="portfolioCards"></div>
     </div>
   </section>
 
+  <section id="contact">
+    <h1 class="contactTitle">Contacto</h1>
+    <form id="form">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="field"><input class="form-control" type="text" placeholder="Nombre" id="name" name="name"
+                required></div>
+            <div class="field"><input class="form-control" type="text" placeholder="Apellido" name="lastname"
+                id="lastname" required></div>
+            <div class="field"> <input class="form-control" type="email" placeholder="Email" id="email" name="email"
+                required> </div>
+          </div>
+          <div class="col-lg-7 textarea">
+            <textarea class="form-control" placeholder="Mensaje" rows="3" name="message" id="message"
+              required></textarea>
+            <small class="smallText">*Este mensaje sera enviado a 'gonzalodamianperrone@gmail.com'</small>
+            <input type="submit" class="submitBtn" id="emailButton" value="Enviar">
+          </div>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  </div>
   <!--Footer-->
+
   <footer id="footer">
     <div class="footerBox">
-      <p><i class="bi bi-envelope"></i><br>gonzalodamianperrone@gmail.com</p>
-      <p><i class="bi bi-telephone-fill"></i><br>+(598) 95 032 367</p>
-      <p>&#169;<br>Gonzalo Perrone 2022</p>
+      <div class="copyright">&copy; Gonzalo Perrone 2022</div>
     </div>
   </footer>
 
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    emailjs.init('ZAtIoXimCMqSWpQMQ')
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
 </body>
