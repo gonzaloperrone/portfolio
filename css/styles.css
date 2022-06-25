@@ -115,6 +115,12 @@ nav {
   color: #03a0fa;
 }
 
+@media (min-width: 550px) {
+  .typing-demo {
+    font-size: 3em;
+  }
+}
+
 @keyframes typing {
   from {
     width: 0
@@ -125,11 +131,6 @@ nav {
   50% {
     border-color: transparent
   }
-}
-
-.myName {
-  font-size: 1.3em;
-  color: #0285ff;
 }
 
 .subTitle {
