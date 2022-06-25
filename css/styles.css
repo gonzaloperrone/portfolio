@@ -84,7 +84,7 @@ nav {
 /*About Me*/
 
 #aboutMe {
-  background-image: url("/img/backgrounds/back2.jpg");
+  background-image: url("./img/backgrounds/back2.jpg");
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   padding-bottom: 50px;
@@ -105,7 +105,7 @@ nav {
   animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
   font-weight: bold;
   margin: auto;
-  max-width: 550px;
+  max-width: 650px;
 }
 
 .myName {
