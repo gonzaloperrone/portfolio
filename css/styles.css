@@ -84,7 +84,7 @@ nav {
 /*About Me*/
 
 #aboutMe {
-  background-image: url("./img/backgrounds/back2.jpg");
+  background-image: url("../img/backgrounds/back2.jpg");
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   padding-bottom: 50px;
