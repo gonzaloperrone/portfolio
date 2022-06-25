@@ -84,7 +84,7 @@ nav {
 /*About Me*/
 
 #aboutMe {
-  background-image: url("/img/backgrounds/back2.jpg");
+  background-image: url("img/backgrounds/back2.jpg");
   text-align: center;
   font-family: 'Source Code Pro', monospace;
   padding-bottom: 50px;
@@ -223,7 +223,7 @@ nav {
 
 #certifications {
   font-family: 'Saira', sans-serif;
-  background-image: url("/img//backgrounds/back3.jpg");
+  background-image: url("img//backgrounds/back3.jpg");
   padding: 50px 0;
 }
 
@@ -316,7 +316,7 @@ nav {
 #portfolio {
   font-family: 'Saira', sans-serif;
   padding: 50px 0;
-  background-image: url("/img/backgrounds/back1.jpg");
+  background-image: url("img/backgrounds/back1.jpg");
 }
 
 .portfolio-title {
