@@ -99,49 +99,32 @@ nav {
   text-align: center !important;
 }
 
-.name {
-  overflow: hidden;
-  white-space: nowrap;
-  border-right: 0.15em solid #198cf8;
- /* animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;*/
-  font-weight: bold;
-  margin: auto;
-  max-width: 650px;
-}
-
-.nameCont {
-  color: #4dabf8;
-  font-size: 1.0rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.stack {
+.wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  place-items: center;
 }
 
-.stack span {
-  font-weight: bold;
-  grid-row-start: 1;
-  grid-column-start: 1;
-  font-size: 2.5rem;
-  animation: glitch 0.9s ease infinite 2s alternate-reverse;
+.typing-demo {
+  width: 16ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+  color: #03a0fa;
 }
 
-.stack span:nth-child(odd) { --glitch-translate: 58px; }
-.stack span:nth-child(even) { --glitch-translate: -58px; }
-
-
-@keyframes glitch {
-  0% {
-    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
-    transform: translate(var(--glitch-translate));
+@keyframes typing {
+  from {
+    width: 0
   }
-  2% {
-    text-shadow: 2px -3px 0 red, -2px 3px 0 rgb(255, 255, 255);
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
   }
-  4%, 100% {  text-shadow: none; transform: none; }
 }
 
 .myName {
