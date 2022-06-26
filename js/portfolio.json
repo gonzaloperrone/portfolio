@@ -32,7 +32,7 @@
         "code": "https://github.com/gonzaloperrone/todo_list_js"
     },
     {
-        "name": "Caclulador de IMC",
+        "name": "Calculador de IMC",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
         "description": "Proyecto personal para calcular el índice de masa corporal.",
         "img": "img/projects/imc.png",
@@ -40,7 +40,7 @@
         "code": "https://github.com/gonzaloperrone/imc_js"
     },
     {
-        "name": "Calculator",
+        "name": "Calculadoras",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
         "description": "Proyecto personal de 2 tipos de calculadoras distintas.",
         "img": "img/projects/calculators.png",
