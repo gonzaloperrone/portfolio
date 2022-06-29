@@ -1,5 +1,11 @@
 [
     {
+        "name": "Version control with Git",
+        "platform": "Atlassian University - Coursera",
+        "img": "img/certifications/version_control_with_git.PNG",
+        "year": "Junio, 2022"
+    },
+    {
         "name": "Interactivity with JavaScript",
         "platform": "University of Michigan - Coursera",
         "img": "img/certifications/coursera_interactivity_with_javascript.PNG",
