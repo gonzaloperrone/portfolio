@@ -1,5 +1,29 @@
 [
     {
+        "name": "Bienes Raíces",
+        "madeWith": "HTML, SASS, JavaScript.",
+        "description": "Proyecto realizado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy.",
+        "img": "img/projects/bienesraices.PNG",
+        "demo": "https://gonzaloperrone.github.io/Bienes-Raices/",
+        "code": "https://github.com/gonzaloperrone/Bienes-Raices"
+    },
+    {
+        "name": "Rock & EDM Festival",
+        "madeWith": "HTML, SASS, JavaScript.",
+        "description": "Proyecto realizado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy.",
+        "img": "img/projects/rock.PNG",
+        "demo": "https://gonzaloperrone.github.io/Rock-EDM-Festival/",
+        "code": "https://github.com/gonzaloperrone/Rock-EDM-Festival"
+    },
+    {
+        "name": "Frontend Store",
+        "madeWith": "HTML, CSS.",
+        "description": "Proyecto realizado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy.",
+        "img": "img/projects/frontStore.PNG",
+        "demo": "https://gonzaloperrone.github.io/frontend-store/",
+        "code": "https://github.com/gonzaloperrone/frontend-store"
+    },
+    {
         "name": "Guess the color game",
         "madeWith": "HTML, CSS, JavaScript.",
         "description": "Proyecto realizado en Build 'Guess The Color' game using JavaScript, HTML and CSS (Proyecto guiado - Coursera).",
