@@ -1,0 +1,113 @@
+[
+    {
+        "name": "Aprende REST API",
+        "platform": "LinkedIn",
+        "img": "img/certifications/aprende_restapi.PNG",
+        "year": "Enero, 2023",
+        "yearEn": "January, 2023"
+    },
+    {
+        "name": "Automation Testing using Selenium & Katalon Studio",
+        "platform": "Udemy",
+        "img": "img/certifications/automation_testing_selenium_katalon.PNG",
+        "year": "Enero, 2023",
+        "yearEn": "January, 2023"
+    },{
+        "name": "Agile Software Development",
+        "platform": "LinkedIn",
+        "img": "img/certifications/agile_software_development.PNG",
+        "year": "Enero, 2023",
+        "yearEn": "January, 2023"
+    },
+    {
+        "name": "Agile Development Practices",
+        "platform": "LinkedIn",
+        "img": "img/certifications/agile_development_practices.PNG",
+        "year": "Enero, 2023",
+        "yearEn": "January, 2023"
+    },
+    {
+        "name": "Version control with Git",
+        "platform": "Atlassian University - Coursera",
+        "img": "img/certifications/version_control_with_git.PNG",
+        "year": "Junio, 2022",
+        "yearEn": "June, 2022"
+    },
+    {
+        "name": "Interactivity with JavaScript",
+        "platform": "University of Michigan - Coursera",
+        "img": "img/certifications/coursera_interactivity_with_javascript.PNG",
+        "year": "Junio, 2022",
+        "yearEn": "June, 2022"
+    },
+    {
+        "name": "Build 'Guess The Color' game using JavaScript, HTML and CSS",
+        "platform": "Coursera Project Network - Coursera",
+        "img": "img/certifications/guess_the_color.PNG",
+        "year": "Junio, 2022",
+        "yearEn": "June, 2022"
+    },
+    {
+        "name": "Front-End Web Development with React",
+        "platform": "The Hong Kong University of Science and Technology - Coursera",
+        "img": "img/certifications/coursera_React.PNG",
+        "year": "Febrero - Marzo, 2022",
+        "yearEn": "February - March, 2022"
+    },
+    {
+        "name": "Creando tu primera app con ReactJS",
+        "platform": "Coursera Project Network - Coursera",
+        "img": "img/certifications/coursera_project_react.PNG",
+        "year": "Marzo, 2022",
+        "yearEn": "March, 2022"
+    },
+    {
+        "name": "Build a Full-Stack Server for API Requests - NodeJS and Pug",
+        "platform": "Coursera Project Network - Coursera",
+        "img": "img/certifications/coursera_project_node2.PNG",
+        "year": "Marzo, 2022",
+        "yearEn": "March, 2022"
+    },
+    {
+        "name": "Aprendiendo a hacer API con Node.JS",
+        "platform": "Coursera Project Network - Coursera",
+        "img": "img/certifications/coursera_project_node.PNG",
+        "year": "Marzo, 2022",
+        "yearEn": "March, 2022"
+    },
+    {
+        "name": "Crea una página web interactiva con JavaScript",
+        "platform": "Coursera Project Network - Coursera",
+        "img": "img/certifications/coursera_project_js.PNG",
+        "year": "Febrero, 2022",
+        "yearEn": "February, 2022"
+    },
+    {
+        "name": "HTML, CSS, and Javascript for Web Developers",
+        "platform": "Johns Hopkins University - Coursera",
+        "img": "img/certifications/coursera_Javascript.PNG",
+        "year": "Enero - Febrero, 2022",
+        "yearEn": "January - February, 2022"
+    },
+    {
+        "name": "Responsive Web Design",
+        "platform": "freeCodeCamp",
+        "img": "img/certifications/freeCodeCamp.PNG",
+        "year": "Septiembre - Octubre, 2021",
+        "yearEn": "September - October, 2021"
+    },
+    {
+        "name": "Desarrollador Web",
+        "platform": "Jóvenes a programar _ Plan Ceibal",
+        "img": "img/certifications/jap.PNG",
+        "year": "Marzo - Noviembre, 2021",
+        "yearEn": "March - November, 2021"
+    },
+    {
+        "name": "Diseño Web con HTML5 + CSS",
+        "platform": "Fundación Telefónica Movistar",
+        "img": "img/certifications/movistar.PNG",
+        "year": "Agosto, 2021",
+        "yearEn": "August, 2021"
+    }
+]

@@ -18,157 +18,255 @@
 
 <body>
 
-  <!--Header-->
   <header>
-    <nav id="navbar-example2" class="navbar navbar-expand-lg fixed-top bg-dark px-3">
-      <a class="logo" href="#">{GP}</a>
+    <nav id="navbar-example2" class="navbar navbar-expand-lg fixed-top px-3">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbarToggler">
+        <span class="navbar-toggler-icon">
+          <i class="bi bi-list hamburger-icon"></i>
+          <i class="bi bi-x-lg close-icon"></i>
+        </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav nav nav-pills">
+        <ul class="navbar-nav nav nav-pills me-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#aboutMe">Sobre mi</a>
+            <a class="nav-link" href="#aboutMe" data-en="About me" data-es="Sobre mi">Sobre mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#certifications">Certficaciones</a>
+            <a class="nav-link" href="#certifications" data-en="Certifications"
+              data-es="Certificaciones">Certificaciones</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#portfolio" data-en="Portfolio" data-es="Portfolio">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contacto</a>
+            <a class="nav-link" href="#contact" data-en="Contact" data-es="Contacto">Contacto</a>
           </li>
         </ul>
+        <div class="language-toggle">
+          <div class="lang-toggle" id="langToggle">
+            <div class="lang-option" data-lang="es">ES</div>
+            <div class="lang-option active" data-lang="en">EN</div>
+            <div class="lang-slider"></div>
+          </div>
+        </div>
       </div>
-
     </nav>
   </header>
 
   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
     data-bs-smooth-scroll="true" class="scrollspy-example sectionsContainer" tabindex="0">
 
-    <!--About Me-->
-    <section id="aboutMe" class="parallax">
-      <div class=" aboutMeContainer container">
-        <div class="row">
-          <div class="mainInfo">
-            <div class="container nameCont">
-              <div class="wrapper">
-                <div class="typing-demo">
-                  Gonzalo Perrone
+    <section id="aboutMe">
+      <div class="container aboutMeContainer">
+        <div class="hero-content">
+          <h1 class="hero-name">Gonzalo Perrone</h1>
+
+          <div class="profile-image-container">
+            <img src="img/foto_cv.png" alt="Gonzalo Perrone" class="profile-image">
+          </div>
+
+          <h2 class="hero-title" data-en="QA Manual/Auomation Tester"
+            data-es="QA Manual/Auomation Tester">QA Manual/Auomation Tester</h2>
+          <p class="hero-description"
+            data-en="I'm 25 years old from Montevideo, Uruguay. I stand out for being a proactive, responsible person with great ability to work in teams. I'm passionate about technology and the testing world, which is why I'm constantly training to grow personally and professionally. I seek to add value to projects through good quality assurance practices, early error detection and continuous improvement in development processes."
+            data-es="Tengo 25 años y soy de Montevideo, Uruguay. Me destaco por ser una persona proactiva, responsable y con gran capacidad para trabajar en equipo. Me apasiona la tecnología y el mundo del testing, por lo que estoy en constante formación para crecer personal y profesionalmente. Busco aportar valor a los proyectos a través de buenas prácticas de aseguramiento de calidad, detección temprana de errores y mejora continua en los procesos de desarrollo.">
+            Tengo 25 años y soy de Montevideo, Uruguay. Me destaco por ser una persona proactiva, responsable y con gran
+            capacidad para trabajar en equipo. Me apasiona la tecnología y el mundo del testing, por lo que estoy en
+            constante formación para crecer personal y profesionalmente. Busco aportar valor a los proyectos a través de
+            buenas prácticas de aseguramiento de calidad, detección temprana de errores y mejora continua en los
+            procesos de desarrollo.</p>
+
+          <div class="experience-section">
+            <h3 class="experience-title" data-en="Professional Experience" data-es="Experiencia Profesional">Experiencia
+              Profesional</h3>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-date">
+                  <span data-en="Sep 2023 - Present" data-es="Sep 2023 - Actualidad">Sep 2023 - Actualidad</span>
+                </div>
+                <div class="timeline-content">
+                  <h4 class="timeline-position" data-en="QA Manual/Automation Tester"
+                    data-es="QA Manual/Automation Tester">QA Manual/Automation Tester</h4>
+                  <h5 class="timeline-company">TCS (Tata Consultancy Services)</h5>
+                  <p class="timeline-description"
+                    data-en="API & UI testing, Test automation in Katalon, Postman, Bug creation and tracking, Agile methodologies and GenAI integration."
+                    data-es="API & UI testing, Automatización de pruebas en Katalon, Postman, Creación y seguimiento de defectos,
+                    Metodologías ágiles e integracion con GenAI.">
+                    API & UI testing, Automatización de pruebas en Katalon, Postman, Creación y seguimiento de defectos,
+                    Metodologías ágiles e integracion con GenAI.
+                  </p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-date">
+                  <span data-en="Sep 2022 - Sep 2023" data-es="Sep 2022 - Sep 2023">Sep 2022 - Sep 2023</span>
+                </div>
+                <div class="timeline-content">
+                  <h4 class="timeline-position" data-en="IT Trainee" data-es="IT Trainee">IT Trainee</h4>
+                  <h5 class="timeline-company">TCS (Tata Consultancy Services)</h5>
+                  <p class="timeline-description" data-en="Documentation, manual test execution, bug tracking"
+                    data-es="Documentación, ejecución de pruebas manuales, seguimiento de defectos">
+                    Documentación, ejecución de pruebas manuales, seguimiento de defectos
+                  </p>
                 </div>
               </div>
             </div>
-            <hr>
-            <h3 class="subTitle">Desarrollador Web</h3>
-            <a class="iconMain" href="https://github.com/gonzaloperrone" target="_blank"><i
-                class="bi bi-github"></i></a>
-            <a class="iconMain" href="https://www.linkedin.com/in/gonzalo-perrone/" target="_blank"><i
-                class="bi bi-linkedin"></i></a>
           </div>
-          <div class="col-12">
-            <img src="img/foto_cv.png" alt="Gonzalo Perrone" class="img-responsive profileImg">
-          </div>
-          <a class="resumeBtn" href="Gonzalo_Perrone_CV.pdf" download="Gonzalo_Perrone_CV.pdf"><i
-              class="bi bi-cloud-arrow-down"></i> CV</a>
-          <hr class="aboutHr">
-          <div class="col-12 aboutMeInfo">
-            <p>Tengo 22 años y soy de Montevideo, Uruguay.</p>
-            <p>Soy una persona proactiva, trabajo muy bien en equipo, soy positivo, responsable y
-            comprometido.</p>
-            <p>Siempre me gustó e interesó la tecnología y en 2021 empecé a introducirme en el mundo de las TI.
-              Me gusta estar en constante aprendizaje y crecimiento para desarrollarme tanto personalmente como en el
-              área profesional. </p>
-            <p>Inglés - Nivel Intermediate B1 (Plataforma Voxy)</p>
-          </div>
-          <hr class="aboutHr1">
-        </div>
-        <div class="row aboutMeRow">
-          <div>
-            <h3 class="skillsTitle">Conocimientos y habilidades</h3>
-          </div>
-          <div class="col-12">
-            <div class="skills">
-              <h5 class="skill"><img src="img/html.png" alt="" width="30"><br>HTML5</h5>
-              <h5 class="skill"><img src="img/css.png" alt="" width="30"><br>CSS</h5>
-              <h5 class="skill"><img src="img/sass.png" alt="" width="30"><br>SASS</h5>
-              <h5 class="skill"><img src="img/js.png" alt="" width="30"><br>JavaScript</h5>
-              <h5 class="skill"><img src="img/git.png" alt="" width="30"><br>Git</h5>
-              <h5 class="skill"><img src="img/githW.png" alt="" width="30"><br>Github</h5>
-              <h5 class="skill"><img src="img/react.png" alt="" width="30"><br>React.js</h5>
-              <h5 class="skill"><img src="img/node.png" alt="" width="30"><br>Node.js</h5>
-              <h5 class="skill"><img src="img/boot.png" alt="" width="30"><br>Bootstrap</h5>
-            </div>
 
+          <div class="hero-buttons">
+            <a href="#contact" class="btn-primary-custom">
+              <i class="bi bi-envelope"></i> <span data-en="Contact" data-es="Contactar">Contactar</span>
+            </a>
+            <a href="Gonzalo_Perrone_CV.pdf" download="Gonzalo_Perrone_CV.pdf" class="btn-outline-custom">
+              <i class="bi bi-cloud-arrow-down"></i> <span data-en="Download CV" data-es="Descargar CV">Descargar
+                CV</span>
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a class="social-link" href="https://github.com/gonzaloperrone" target="_blank">
+              <i class="bi bi-github"></i>
+            </a>
+            <a class="social-link" href="https://www.linkedin.com/in/gonzalo-perrone/" target="_blank">
+              <i class="bi bi-linkedin"></i>
+            </a>
           </div>
         </div>
       </div>
-  </div>
-  </div>
-  </section>
+    </section>
 
-  <!--Certifications-->
-  <section id="certifications" class="parallax">
-    <h1 class="certifications-title">Certificaciones</h1>
-    <div class="container">
-      <div class="tab">
-        <button class="tablinks" onclick="tabs(event, 'courses')" id="defaultOpen">Cursos</button>
-        <button class="tablinks" onclick="tabs(event, 'projects')">Proyectos</button>
-      </div>
-
-      <div id="courses" class="tabcontent">
-        <div class="certificationCards" id="certificationsCard"></div>
-      </div>
-
-      <div id="projects" class="tabcontent">
-        <div class="certificationCards" id="projectsCertificationsCard"></div>
-      </div>
-
-      <!-- <div class="certificationCards" id="certificationsCard"></div>
-        <div class="certificationCards" id="projectsCertificationsCard"></div>-->
-    </div>
-  </section>
-
-  <!--Portfolio-->
-  <section id="portfolio" class="parallax">
-    <h1 class="portfolio-title">Portfolio</h1>
-    <div class="container">
-      <div class="portfolioCards" id="portfolioCards"></div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h1 class="contactTitle">Contacto</h1>
-    <form id="form">
+    <section id="certifications">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <div class="field"><input class="form-control" type="text" placeholder="Nombre" id="name" name="name"
-                required></div>
-            <div class="field"><input class="form-control" type="text" placeholder="Apellido" name="lastname"
-                id="lastname" required></div>
-            <div class="field"> <input class="form-control" type="email" placeholder="Email" id="email" name="email"
-                required> </div>
+        <div class="section-header">
+          <h1 class="section-title" data-en="Certifications" data-es="Certificaciones">Certificaciones</h1>
+          <p class="section-subtitle" data-en="Courses and projects completed in my continuous learning process"
+            data-es="Cursos y proyectos completados en mi proceso de aprendizaje continuo">Cursos y proyectos
+            completados en mi proceso de aprendizaje continuo</p>
+        </div>
+
+        <div class="certifications-grid" id="certificationsCard"></div>
+        <div class="pagination-container" id="coursesPaginationContainer" style="display: none;">
+          <button class="pagination-btn" id="coursesPrevBtn" onclick="changeCertificationPage(-1, 'courses')">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <div class="pagination-info" id="coursesPaginationInfo">
+            <span id="coursesCurrentPage">1</span>/<span id="coursesTotalPages">1</span>
           </div>
-          <div class="col-lg-7 textarea">
-            <textarea class="form-control" placeholder="Mensaje" rows="3" name="message" id="message"
-              required></textarea>
-            <small class="smallText">*Este mensaje sera enviado a 'gonzalodamianperrone@gmail.com'</small>
-            <input type="submit" class="submitBtn" id="emailButton" value="Enviar">
-          </div>
+          <button class="pagination-btn" id="coursesNextBtn" onclick="changeCertificationPage(1, 'courses')">
+            <i class="bi bi-chevron-right"></i>
+          </button>
         </div>
       </div>
-    </form>
-  </section>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title" data-en="Portfolio" data-es="Portfolio">Portfolio</h1>
+          <p class="section-subtitle"
+            data-en="Before starting as a QA Tester, I studied as a Web Developer, here are some of my projects"
+            data-es="Antes de empezar como QA Tester tuve estudios como Desarrollador Web, acá hay algunos de mis proyectos">
+            Antes de empezar como QA Tester tuve estudios como Desarrollador Web, acá hay algunos de mis proyectos</p>
+        </div>
+        <div class="portfolio-grid" id="portfolioCards"></div>
+        <div class="pagination-container" id="paginationContainer" style="display: none;">
+          <button class="pagination-btn" id="prevBtn" onclick="changePage(-1)">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+          <div class="pagination-info" id="paginationInfo">
+            <span id="currentPage">1</span>/<span id="totalPages">1</span>
+          </div>
+          <button class="pagination-btn" id="nextBtn" onclick="changePage(1)">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <h1 class="section-title" data-en="Contact" data-es="Contacto">Contacto</h1>
+          <p class="section-subtitle" data-en="Do you have a project in mind? Let's talk!"
+            data-es="¿Tienes un proyecto en mente? ¡Hablemos!">¿Tienes un proyecto en mente? ¡Hablemos!</p>
+        </div>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <h4>Email</h4>
+              <p>gonzalodamianperrone@gmail.com</p>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <h4 data-en="Location" data-es="Ubicación">Ubicación</h4>
+              <p>Montevideo, Uruguay</p>
+            </div>
+          </div>
+
+          <form id="form" class="contact-form">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="form-label" for="name" data-en="Name" data-es="Nombre">Nombre</label>
+                  <input class="form-control-modern" type="text" id="name" name="name" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label class="form-label" for="lastname" data-en="Last Name" data-es="Apellido">Apellido</label>
+                  <input class="form-control-modern" type="text" id="lastname" name="lastname" required>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">Email</label>
+              <input class="form-control-modern" type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="message" data-en="Message" data-es="Mensaje">Mensaje</label>
+              <textarea class="form-control-modern form-textarea" id="message" name="message" rows="5"
+                required></textarea>
+            </div>
+            <button type="submit" class="form-submit" id="emailButton">
+              <i class="bi bi-send"></i> <span data-en="Send Message" data-es="Enviar Mensaje">Enviar Mensaje</span>
+            </button>
+            <p class="form-note" data-en="Your message will be sent directly to my personal email"
+              data-es="Tu mensaje será enviado directamente a mi email personal">
+              Tu mensaje será enviado directamente a mi email personal
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
 
   </div>
 
-  <!--Footer-->
-  <footer id="footer">
-    <div class="footerBox">
-      <div class="copyright">&copy; Gonzalo Perrone 2022</div>
+  <!-- Modal para imágenes -->
+  <div id="imageModal" class="image-modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div class="modal-caption" id="modalCaption"></div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-social">
+          <a class="footer-social-link" href="https://github.com/gonzaloperrone" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+          <a class="footer-social-link" href="https://www.linkedin.com/in/gonzalo-perrone/" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
 

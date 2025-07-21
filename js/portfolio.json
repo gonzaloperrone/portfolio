@@ -1,80 +1,155 @@
 [
     {
         "name": "Bienes Raíces",
+        "nameEn": "Real Estate",
         "madeWith": "HTML, SASS, JavaScript.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "SASS", "icon": "img/sass.png"},
+            {"name": "JavaScript", "icon": "img/js.png"}
+        ],
         "description": "Proyecto realizado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy.",
+        "descriptionEn": "Project completed in Full Stack Web Development with HTML5, CSS3, JS AJAX PHP and MySQL - Udemy.",
         "img": "img/projects/bienesraices.PNG",
         "demo": "https://gonzaloperrone.github.io/Bienes-Raices/",
         "code": "https://github.com/gonzaloperrone/Bienes-Raices"
     },
     {
         "name": "Rock & EDM Festival",
+        "nameEn": "Rock & EDM Festival",
         "madeWith": "HTML, SASS, JavaScript.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "SASS", "icon": "img/sass.png"},
+            {"name": "JavaScript", "icon": "img/js.png"}
+        ],
         "description": "Proyecto realizado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy.",
+        "descriptionEn": "Project completed in Full Stack Web Development with HTML5, CSS3, JS AJAX PHP and MySQL - Udemy.",
         "img": "img/projects/rock.PNG",
         "demo": "https://gonzaloperrone.github.io/Rock-EDM-Festival/",
         "code": "https://github.com/gonzaloperrone/Rock-EDM-Festival"
     },
     {
         "name": "Frontend Store",
+        "nameEn": "Frontend Store",
         "madeWith": "HTML, CSS.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"}
+        ],
         "description": "Proyecto realizado en Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL - Udemy.",
+        "descriptionEn": "Project completed in Full Stack Web Development with HTML5, CSS3, JS AJAX PHP and MySQL - Udemy.",
         "img": "img/projects/frontStore.PNG",
         "demo": "https://gonzaloperrone.github.io/frontend-store/",
         "code": "https://github.com/gonzaloperrone/frontend-store"
     },
     {
         "name": "Guess the color game",
+        "nameEn": "Guess the Color Game",
         "madeWith": "HTML, CSS, JavaScript.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"},
+            {"name": "JavaScript", "icon": "img/js.png"}
+        ],
         "description": "Proyecto realizado en Build 'Guess The Color' game using JavaScript, HTML and CSS (Proyecto guiado - Coursera).",
+        "descriptionEn": "Project completed in Build 'Guess The Color' game using JavaScript, HTML and CSS (Guided Project - Coursera).",
         "img": "img/projects/guess_the_color.PNG",
         "demo": "https://gonzaloperrone.github.io/guess_the_color_game/",
         "code": "https://github.com/gonzaloperrone/guess_the_color_game"
     },
     {
         "name": "Search It",
+        "nameEn": "Search It",
         "madeWith": "ReactJs, Bootstrap, CSS.",
+        "technologies": [
+            {"name": "React", "icon": "img/react.png"},
+            {"name": "Bootstrap", "icon": "img/boot.png"},
+            {"name": "CSS", "icon": "img/css.png"}
+        ],
         "description": "Proyecto personal realizado con la API de The Movie DB para buscar películas y/o series y ver su información.",
+        "descriptionEn": "Personal project built with The Movie DB API to search for movies and/or TV shows and view their information.",
         "img": "img/projects/searchIt.png",
         "demo": "https://gonzaloperrone.github.io/movie-react.app/",
         "code": "https://github.com/gonzaloperrone/movie-react.app"
     },
     {
         "name": "David Chu's China Bistro",
+        "nameEn": "David Chu's China Bistro",
         "madeWith": "HTML, CSS, JavaScript, Bootstrap.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"},
+            {"name": "JavaScript", "icon": "img/js.png"},
+            {"name": "Bootstrap", "icon": "img/boot.png"}
+        ],
         "description": "Proyecto realizado en el curso 'HTML, CSS, and Javascript for Web Developers' - (Johns Kopkins University - Coursera)",
+        "descriptionEn": "Project completed in the course 'HTML, CSS, and Javascript for Web Developers' - (Johns Hopkins University - Coursera)",
         "img": "img/projects/davidChu.PNG",
         "demo": "https://gonzaloperrone.github.io/David-Chus-China-Bistro/",
         "code": "https://github.com/gonzaloperrone/David-Chus-China-Bistro"
     },
     {
         "name": "Todo App",
+        "nameEn": "Todo App",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"},
+            {"name": "JavaScript", "icon": "img/js.png"},
+            {"name": "Bootstrap", "icon": "img/boot.png"}
+        ],
         "description": "Proyecto personal de una app para crear y eliminar tareas pendientes y/o ya realizadas.",
+        "descriptionEn": "Personal project of an app to create and delete pending and/or completed tasks.",
         "img": "img/projects/todo.png",
         "demo": "https://gonzaloperrone.github.io/todo_list_js/",
         "code": "https://github.com/gonzaloperrone/todo_list_js"
     },
     {
         "name": "Calculador de IMC",
+        "nameEn": "BMI Calculator",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"},
+            {"name": "JavaScript", "icon": "img/js.png"},
+            {"name": "Bootstrap", "icon": "img/boot.png"}
+        ],
         "description": "Proyecto personal para calcular el índice de masa corporal.",
+        "descriptionEn": "Personal project to calculate body mass index.",
         "img": "img/projects/imc.png",
         "demo": "https://gonzaloperrone.github.io/imc_js/",
         "code": "https://github.com/gonzaloperrone/imc_js"
     },
     {
         "name": "Calculadoras",
+        "nameEn": "Calculators",
         "madeWith": "HTML, CSS, JavaScript y Bootstrap.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"},
+            {"name": "JavaScript", "icon": "img/js.png"},
+            {"name": "Bootstrap", "icon": "img/boot.png"}
+        ],
         "description": "Proyecto personal de 2 tipos de calculadoras distintas.",
+        "descriptionEn": "Personal project featuring 2 different types of calculators.",
         "img": "img/projects/calculators.png",
         "demo": "https://gonzaloperrone.github.io/calculator.js/",
         "code": "https://github.com/gonzaloperrone/calculator.js"
     },
     {
         "name": "e-commerce",
+        "nameEn": "E-commerce",
         "madeWith": "HTML, CSS, JavaScript, Bootstrap, Node.js y Jquery.",
+        "technologies": [
+            {"name": "HTML", "icon": "img/html.png"},
+            {"name": "CSS", "icon": "img/css.png"},
+            {"name": "JavaScript", "icon": "img/js.png"},
+            {"name": "Bootstrap", "icon": "img/boot.png"},
+            {"name": "Node.js", "icon": "img/node.png"}
+        ],
         "description": "Proyecto realizado en el curso Jóvenes a programar de Plan Ceibal.",
+        "descriptionEn": "Project completed in the 'Jóvenes a programar' course by Plan Ceibal.",
         "img": "img/projects/e-com.png",
         "demo": "https://gonzaloperrone.github.io/e-commerce/",
         "code": "https://github.com/gonzaloperrone/e-commerce"
